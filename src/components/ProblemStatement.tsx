@@ -16,8 +16,8 @@ const problems = [
   },
   {
     icon: "📊",
-    title: "Need for Behavior-Based Detection",
-    desc: "A paradigm shift toward analyzing network behavior patterns rather than payload content is essential for modern IDS.",
+    title: "Shift Toward Behavior-Based Detection",
+    desc: "A paradigm shift toward analyzing network behavior patterns rather than payload content is essential for modern intrusion detection systems.",
   },
 ];
 

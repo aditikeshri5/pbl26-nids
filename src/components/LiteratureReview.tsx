@@ -1,23 +1,23 @@
 const reviews = [
   {
-    title: "Traditional IDS",
-    desc: "Signature-based systems like Snort and Suricata match known attack patterns but fail against zero-day threats and novel attack vectors.",
-    tag: "Baseline",
+    title: "Signature-Based IDS",
+    desc: "Early studies on systems like Snort (Roesch, 1999) focused on rule-based detection of known attack signatures. These systems achieved high accuracy for known threats but failed to detect zero-day attacks and required frequent signature updates.",
+    tag: "1️⃣",
   },
   {
-    title: "ML-Based IDS",
-    desc: "Machine learning models (SVM, Random Forest, Neural Networks) improve detection of unknown attacks through pattern recognition and anomaly detection.",
-    tag: "Advancement",
+    title: "Anomaly-Based Detection",
+    desc: "Lee and Stolfo (2000) introduced data mining techniques to detect abnormal network behavior. These methods improved detection of unknown attacks but produced higher false positives and required careful feature selection.",
+    tag: "2️⃣",
+  },
+  {
+    title: "Machine Learning-Based IDS",
+    desc: "Recent research applied algorithms such as SVM, Decision Trees, and Random Forest using datasets like NSL-KDD. These models improved detection accuracy for both known and unknown attacks but required large datasets and high computational resources.",
+    tag: "3️⃣",
   },
   {
     title: "Cryptographic Security",
-    desc: "Cryptographic hashing and integrity verification techniques ensure data authenticity and detect tampering in network communications.",
-    tag: "Security Layer",
-  },
-  {
-    title: "Existing Limitations",
-    desc: "Current approaches lack integration between ML classification and data integrity verification. Most systems cannot handle encrypted traffic effectively.",
-    tag: "Gap",
+    desc: "Studies on hashing and digital signatures ensured data integrity and authentication in network communication. However, these approaches focused on security verification rather than intrusion classification.",
+    tag: "4️⃣",
   },
 ];
 
