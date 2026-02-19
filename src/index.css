@@ -15,7 +15,7 @@
     --popover: 222 18% 11%;
     --popover-foreground: 210 25% 92%;
 
-    --primary: 42 85% 55%;
+    --primary: 190 90% 50%;
     --primary-foreground: 222 20% 7%;
 
     --secondary: 222 15% 16%;
@@ -24,7 +24,7 @@
     --muted: 222 12% 18%;
     --muted-foreground: 215 15% 55%;
 
-    --accent: 42 85% 55%;
+    --accent: 190 90% 50%;
     --accent-foreground: 222 20% 7%;
 
     --destructive: 0 72% 51%;
@@ -32,28 +32,28 @@
 
     --border: 222 15% 18%;
     --input: 222 15% 18%;
-    --ring: 42 85% 55%;
+    --ring: 190 90% 50%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 222 20% 7%;
     --sidebar-foreground: 210 25% 92%;
-    --sidebar-primary: 42 85% 55%;
+    --sidebar-primary: 190 90% 50%;
     --sidebar-primary-foreground: 222 20% 7%;
     --sidebar-accent: 222 15% 16%;
     --sidebar-accent-foreground: 210 25% 92%;
     --sidebar-border: 222 15% 18%;
-    --sidebar-ring: 42 85% 55%;
+    --sidebar-ring: 190 90% 50%;
 
     /* Custom tokens */
-    --gold: 42 85% 55%;
-    --gold-dim: 42 60% 40%;
+    --gold: 190 90% 50%;
+    --gold-dim: 190 60% 40%;
     --navy-light: 222 15% 16%;
     --navy-lighter: 222 12% 22%;
-    --gradient-gold: linear-gradient(135deg, hsl(42 85% 55%), hsl(35 90% 45%));
+    --gradient-gold: linear-gradient(135deg, hsl(190 90% 50%), hsl(200 90% 40%));
     --gradient-card: linear-gradient(145deg, hsl(222 18% 13%), hsl(222 18% 9%));
-    --gradient-hero: linear-gradient(135deg, hsl(42 85% 60%), hsl(28 90% 50%), hsl(42 85% 55%));
-    --shadow-gold: 0 4px 30px -8px hsl(42 85% 55% / 0.2);
+    --gradient-hero: linear-gradient(135deg, hsl(190 90% 55%), hsl(200 90% 45%), hsl(190 90% 50%));
+    --shadow-gold: 0 4px 30px -8px hsl(190 90% 50% / 0.2);
     --shadow-card: 0 8px 32px -8px hsl(222 20% 4% / 0.5);
 
     --font-display: 'Playfair Display', Georgia, serif;
