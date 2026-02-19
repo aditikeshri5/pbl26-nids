@@ -9,7 +9,7 @@ const TitleSection = () => (
     <div className="section-container text-center relative z-10">
       <div className="gold-badge mb-8">PBL 2026 Presentation</div>
 
-      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold font-display leading-tight mb-6 text-foreground">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-display leading-tight mb-6 text-foreground">
         Hybrid Network Intrusion
         <br />
         Detection System using
