@@ -9,15 +9,15 @@ const TitleSection = () => (
     <div className="section-container text-center relative z-10">
       <div className="gold-badge mb-8">PBL 2026 Presentation</div>
 
-      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold font-display leading-tight mb-6 text-gradient-gold">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold font-display leading-tight mb-6 text-foreground">
         Hybrid Network Intrusion
         <br />
-        Detection System
+        Detection System using
+        <br />
+        <span className="text-[hsl(var(--gold))]">Cryptography</span>
+        {" & "}
+        <span className="text-[hsl(var(--gold))]">Machine Learning</span>
       </h1>
-
-      <p className="text-xl sm:text-2xl text-foreground/80 font-display font-normal mb-3">
-        using Machine Learning &amp; Cryptography
-      </p>
 
       <p className="text-muted-foreground text-base mb-10">
         PBL 2026 – Department of Computer Science &amp; Engineering
