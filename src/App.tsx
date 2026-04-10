@@ -14,10 +14,9 @@ const App = () => (
       <Toaster />
       <Sonner />
       
-      {/* ✅ FIXED: added basename */}
-      <BrowserRouter basename="/pbl26-nids/">
+   <BrowserRouter basename="/pbl26-nids/">
   <Routes>
-    <Route path="" element={<Index />} />
+    <Route path="/" element={<Index />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
 </BrowserRouter>
