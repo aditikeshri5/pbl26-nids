@@ -16,13 +16,11 @@ const App = () => (
       
       {/* ✅ FIXED: added basename */}
       <BrowserRouter basename="/pbl26-nids/">
-        <Routes>
-          <Route path="/" element={<Index />} />
-          
-          {/* ADD ALL CUSTOM ROUTES ABOVE THIS */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+  <Routes>
+    <Route path="" element={<Index />} />
+    <Route path="*" element={<NotFound />} />
+  </Routes>
+</BrowserRouter>
 
     </TooltipProvider>
   </QueryClientProvider>
