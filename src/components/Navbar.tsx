@@ -10,6 +10,7 @@ const navItems = [
   { id: "live-demo", label: "Live Demo" },
   { id: "results", label: "Results" },
   { id: "outcomes", label: "Outcomes" },
+  { id: "research-progress", label: "Paper Progress" },
   { id: "team", label: "Team" },
 ];
 

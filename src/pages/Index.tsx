@@ -11,6 +11,7 @@ import LiveDemo from "@/components/LiveDemo";
 import ResultsAnalysis from "@/components/ResultsAnalysis";
 import ExpectedOutcomes from "@/components/ExpectedOutcomes";
 import TeamCredits from "@/components/TeamCredits";
+import ResearchProgress from "@/components/ResearchProgress";
 
 const Index = () => (
   <div className="min-h-screen bg-background text-foreground">
@@ -27,6 +28,7 @@ const Index = () => (
       <LiveDemo />
       <ResultsAnalysis />
       <ExpectedOutcomes />
+      <ResearchProgress />
       <TeamCredits />
     </main>
   </div>
